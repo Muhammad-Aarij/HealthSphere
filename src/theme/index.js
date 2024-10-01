@@ -1,9 +1,11 @@
 const Colors = {
-    backgroundColor: "#333",
-    grey: "#ccc", 
-    darkGrey: "#666", 
-    back: "#fff", 
+    backgroundColor: "#ffffff",
+    lightGrey: "#c5c8c7",
+    grey: "#627068",
+    darkGrey: "#2b3c34",
     white: "#fff",
-    black: "#000",
-    green: "#00ff00",
-  };
+    black: "#2b3b33",
+    green: "#69cd30",
+    lightGreen: "#aef56f",
+    darkGreen: "#62bc2e"
+};
