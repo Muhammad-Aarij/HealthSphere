@@ -1,4 +1,4 @@
-const Colors = {
+export default  Colors = {
     backgroundColor: "#ffffff",
     lightGrey: "#c5c8c7",
     grey: "#627068",

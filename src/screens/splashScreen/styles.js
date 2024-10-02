@@ -1,21 +1,32 @@
 import { StyleSheet } from "react-native";
+import { Dimensions } from "react-native";
+
+const { width } = Dimensions.get('window');
 
 export default styles = StyleSheet.create({
-    container: {
-        marginTop: 5,
+    slider: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+        // borderWidth: 2,
+        // borderColor:"red",
+        // paddingHorizontal:5,
+        paddingTop:15,
     },
     sliderWrapper: {
+        paddingHorizontal:10,
         width: '100%',
-        height: 190,
+        height: "100%",
+        // borderWidth: 2,
+        // borderColor:"red",
     },
     flatListContent: {
         gap: 10,
     },
     sliderItem: {
-        width: width * 0.878,
+        // borderWidth: 2,
+        // borderColor:"red",
+        width: width * 0.937,
         borderRadius: 20,
         justifyContent: 'flex-start',
         alignItems: 'center',
@@ -45,13 +56,25 @@ export default styles = StyleSheet.create({
     },
     btnContainer: {
         width: '100%',
-        height: '10%',
+        height: '5%',
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
         gap: 10,
         marginTop: 10,
-        marginBottom: 5,
+        // marginBottom: 5,
+        paddingBottom:15,
+    },
+    custombtnContainer: {
+        width: '100%',
+        height: '5%',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: 10,
+        marginTop: 10,
+        // marginBottom: 5,
+        paddingBottom:15,
     },
     arrowContainer: {
         width: "100%",
