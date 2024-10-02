@@ -26,7 +26,8 @@ export default styles = StyleSheet.create({
     },
     heading: {
         fontSize: 34,
-        fontFamily: "sans-serif-medium",
+        fontFamily: "Nunito-Bold",
+        // fontFamily: "sans-serif-medium",
         color: Colors.blue,
         marginBottom: 10,
     },
